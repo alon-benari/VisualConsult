@@ -1,6 +1,6 @@
 console.log('cytograph.js')
 
-fetch('https://leaf.va.gov/VISN21/vanchcs/outpat_networkx/files/cytograph.json').then(response => {
+fetch('https://github.com/alon-benari/VisualConsult/blob/main/cytograph.json').then(response => {
   return response.json();
 }).then(data => {
   // Work with JSON data here
