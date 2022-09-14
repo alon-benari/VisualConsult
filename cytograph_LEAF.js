@@ -1,6 +1,6 @@
 console.log('cytograph.js')
 
-fetch('https://github.com/alon-benari/VisualConsult/blob/main/cytograph.json').then(response => {
+fetch('https://raw.githubusercontent.com/alon-benari/VisualConsult/main/cytograph.json').then(response => {
   return response.json();
 }).then(data => {
   // Work with JSON data here
